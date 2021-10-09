@@ -1,6 +1,6 @@
 # How to write a basic program in NyaScript?
 
-* A NyaScript program always ends with ``sleep nya``
+* A NyaScript program always ends with ``sleep``
 * A definition is written with the form ``owo typeKeyword name [additional stuff]`` 
     * Type keywords are as follows:
         * ``uwu``: (mutable) variable
