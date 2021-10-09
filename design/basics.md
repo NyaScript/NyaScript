@@ -47,3 +47,17 @@
 
 * ``purr`` : is used to comment out a single line
 * ``purrs`` : is used to comment out multiple lines
+
+    * Example:
+    ```
+
+    purr this is a comment!
+
+    purrs 
+    wowow its a multiple
+    comment!
+    purrs
+
+
+
+    ```
