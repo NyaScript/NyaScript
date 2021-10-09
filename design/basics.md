@@ -45,19 +45,15 @@
 
 * NyaScript does not use braces for code blocks, instead it uses the ``-> nya-- some code here --nya nyanya`` syntax, where ``->`` begins the code block and ``nyanya`` ends it.
 
-* ``purr`` : is used to comment out a single line
-* ``purrs`` : is used to comment out multiple lines
+* here is how comments work in nyascript!
 
-    * Example:
-    ```
+    * ``purr`` : is used to comment out a single line
+    * ``purrs`` : is used to comment out multiple lines
 
-    purr this is a comment!
+        * Example:
+        ```
+        purr this is a single line comment!
 
-    purrs 
-    wowow its a multiple
-    comment!
-    purrs
-
-
-
+        purrs wowow its a multiple
+        comment! purrs
     ```
