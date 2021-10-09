@@ -34,7 +34,7 @@
                     nyanya
                     owo pat count() ->
                         if my.num < my.max
-                            my.num++
+                            incwease my.num
                         nyanya
                         gib my.num
                     nyanya
@@ -42,3 +42,5 @@
             ```
         * ``mew``: object (instance of a class, if you prefer)
             * Example: ``owo mew counter = Counter 0 10``
+
+* NyaScript does not use braces for code blocks, instead it uses the ``-> nya-- some code here --nya nyanya`` syntax, where ``->`` begins the code block and ``nyanya`` ends it.
