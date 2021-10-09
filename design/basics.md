@@ -8,7 +8,8 @@
         * ``stay``: constant (or immutable) variable
             * Example: ``owo stay pi = 3.141592``
         * ``pat``: function
-            * Example: ```
+            * Example:
+            ```
                 owo pat fib(n) ->
                     mya? n <= 0 ->
                         meow "Incorrect input"
@@ -24,7 +25,8 @@
                 nyanya
             ```
         * ``litterbox``: class
-            * Example: ```
+            * Example:
+            ```
                 owo litterbox Counter ->
                     owo litter(init, max) nya-- this is the constructor --nya ->
                         owo my num = init
