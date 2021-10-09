@@ -44,3 +44,5 @@
             * Example: ``owo mew counter = Counter 0 10``
 
 * NyaScript does not use braces for code blocks, instead it uses the ``-> nya-- some code here --nya nyanya`` syntax, where ``->`` begins the code block and ``nyanya`` ends it.
+
+*``purr`` : is used to comment out a single line
