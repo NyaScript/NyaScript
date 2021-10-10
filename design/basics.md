@@ -8,7 +8,8 @@
         * ``stay``: constant (or immutable) variable
             * Example: ``owo stay pi = 3.141592``
         * ``pat``: [function](./functions.md)
-       
+        * ``litterbox``: [class](./classes.md)
+        * ``mew``: [object](./classes.md) (instance of a class, if you prefer)
 
 * NyaScript does not use braces for code blocks, instead it uses the ``-> purrs some code here purrs nyanya`` syntax, where ``->`` begins the code block and ``nyanya`` ends it.
 
