@@ -10,19 +10,19 @@
         * ``pat``: function
             * Example:
             ```
-                owo pat fib(n) ->
-                    mya? n <= 0 ->
-                        meow "Incorrect input"
-                    purr First Fibonacci number is 0
-                    mya?? n == 1 ->
-                        gib 0
-                    purr Second Fibonacci number is 1
-                    mya?? n == 2 ->
-                        gib 1
-                    mya ->
-                        gib (fib n-1)+(fib n-2)
-                    nyanya
+            owo pat fib(n) ->
+                mya? n <= 0 ->
+                    meow "Incorrect input"
+                purr First Fibonacci number is 0
+                mya?? n == 1 ->
+                    gib 0
+                purr Second Fibonacci number is 1
+                mya?? n == 2 ->
+                    gib 1
+                mya ->
+                    gib (fib n-1)+(fib n-2)
                 nyanya
+            nyanya
             ```
        
 
@@ -31,7 +31,7 @@
 * here is how comments work in nyascript!
 
     * ``purr`` : is used to comment out a single line
-    * ``purrs`` : is used to comment out multiple lines
+    * ``purrs`` : is used to comment out multiple lines or to specify a delimited comment
 
         * Example:
         ```
@@ -39,4 +39,6 @@
 
         purrs wowow its a multiple
         comment! purrs
+        
+        meow purrs this is going to be ignored by the language purrs "Hi!"
         ```
