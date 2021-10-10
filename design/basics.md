@@ -7,23 +7,7 @@
             * Example: ``owo uwu my_variable = ["a", "bc", 2, [3, 4]]``
         * ``stay``: constant (or immutable) variable
             * Example: ``owo stay pi = 3.141592``
-        * ``pat``: function
-            * Example:
-            ```
-            owo pat fib(n) ->
-                mya? n <= 0 ->
-                    meow("Incorrect input")
-                purr First Fibonacci number is 0
-                mya?? n == 1 ->
-                    gib 0
-                purr Second Fibonacci number is 1
-                mya?? n == 2 ->
-                    gib 1
-                mya ->
-                    gib fib(n-1)+fib(n-2)
-                nyanya
-            nyanya
-            ```
+        * ``pat``: [function](./functions.md)
        
 
 * NyaScript does not use braces for code blocks, instead it uses the ``-> purrs some code here purrs nyanya`` syntax, where ``->`` begins the code block and ``nyanya`` ends it.
