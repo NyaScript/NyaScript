@@ -12,7 +12,7 @@
             ```
             owo pat fib(n) ->
                 mya? n <= 0 ->
-                    meow "Incorrect input"
+                    meow("Incorrect input")
                 purr First Fibonacci number is 0
                 mya?? n == 1 ->
                     gib 0
@@ -20,7 +20,7 @@
                 mya?? n == 2 ->
                     gib 1
                 mya ->
-                    gib (fib n-1)+(fib n-2)
+                    gib fib(n-1)+fib(n-2)
                 nyanya
             nyanya
             ```
@@ -40,5 +40,5 @@
         purrs wowow its a multiple
         comment! purrs
         
-        meow purrs this is going to be ignored by the language purrs "Hi!"
+        meow(purrs this is going to be ignored by the language purrs "Hi!")
         ```
