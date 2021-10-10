@@ -17,4 +17,4 @@
                 nyanya
             ```
 * ``mew``: object (instance of a class, if you prefer)
-    * Example: ``owo mew counter = Counter 0 10``
+    * Example: ``owo mew counter = Counter(0, 10)``
